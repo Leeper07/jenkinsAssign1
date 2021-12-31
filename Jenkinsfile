@@ -1,7 +1,5 @@
 pipeline{
-	agent{
-	    label 'Linux'
-	}
+	agent any{
 	tools{ maven 'MAVEN'}
 		stages{
 			stage('checkout'){
@@ -22,5 +20,6 @@ pipeline{
 			        junit '**/target/surefire-reports/Test-*.xml'
 			    }   
 			}
-		}	
+		}
+	}		
 }
