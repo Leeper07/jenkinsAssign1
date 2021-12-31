@@ -1,6 +1,8 @@
 pipeline{
-	agent any{
-		tools{ maven 'M3'}
+	agent{
+	    label 'linux'
+	}
+	tools{ maven 'M3'}
 		stages{
 			stage('checkout'){
 				steps {
@@ -21,5 +23,4 @@ pipeline{
 			    }   
 			}
 		}	
-	}
 }
