@@ -13,13 +13,13 @@ pipeline{
 			
 			stage('build'){
 				steps {
-					sh 'mvn clean compile'
+					bat 'mvn clean compile'
 				}
 			}
 			
 			stage('test'){
 			    steps{
-			        sh 'mvn test'
+			        bat 'mvn test'
 			        junit '**/target/surefire-reports/Test-*.xml'
 			    }   
 			}
