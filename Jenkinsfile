@@ -2,7 +2,7 @@ pipeline{
 	agent{
 	    label 'linux'
 	}
-	tools{ maven 'MAVEN'}
+	tools{ maven 'Built-In-Node'}
 		stages{
 			stage('checkout'){
 				steps {
