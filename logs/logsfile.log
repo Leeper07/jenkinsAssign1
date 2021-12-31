@@ -1,0 +1,8 @@
+[main] INFO  uiRepository.uiOperations  - Navigated to site
+[main] INFO  uiRepository.uiOperations  - Search successfull
+[main] ERROR uiRepository.uiOperations  - Search model did not meet the criteria
+[TestNG-PoolService-0] INFO  uiRepository.uiOperations  - Navigated to site
+[TestNG-PoolService-0] INFO  uiRepository.uiOperations  - Search successfull
+[TestNG-PoolService-0] INFO  uiRepository.uiOperations  - Navigated to site
+[TestNG-PoolService-0] INFO  uiRepository.uiOperations  - Search successfull
+[TestNG-PoolService-0] ERROR uiRepository.uiOperations  - Search model did not meet the criteria
